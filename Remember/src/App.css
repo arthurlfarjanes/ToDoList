@@ -1,0 +1,118 @@
+/* Buttons */
+/* BTN BLUE */
+.btn-blue {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.btn-blue:hover
+{
+    background-color: #1f79b4;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+/* BTN OUTLINE */
+.btn-outline {
+    background-color: transparent;
+    color: rgb(156, 156, 156);
+    padding: 10px 20px;
+    border: 1px solid rgb(156, 156, 156);
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.btn-outline:hover
+{
+    background-color: rgb(156, 156, 156);
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+/* BTN DANGER */
+.btn-danger {
+    background-color: #da2e2ee1;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.btn-danger:hover
+{
+    background-color: #c21f1f;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+
+/* Alinhamento de tela */
+.Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #e6eef3;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    height: auto;
+    background-color: #ffffffe0;
+    border-radius: 5px;
+    box-shadow: 4px 5px 11px 1px rgba(44, 44, 44, 0.288);
+    padding: 25px 0px;  
+}
+
+.formStyle {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+    gap: 25px;
+}
+
+.formStyle h1 {
+    color: #3498db;
+}
+
+.formStyle input {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    border: 1px solid rgb(156, 156, 156);
+    background-color: transparent;
+    outline: 0;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+.formStyle input:focus {
+    border: 1px solid #3498db;
+}
+
+.goOtherPage {
+    text-align: center;
+    width: 100%;
+}
+
+.goOtherPage span {
+    color: #3498db;
+}
+
+.goOtherPage span:hover {
+    color: #1f79b4;
+    cursor: pointer;
+    text-decoration: underline;
+}
