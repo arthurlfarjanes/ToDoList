@@ -14,7 +14,7 @@ function Login() {
       <div className="box">
         <form className="formStyle">
           <h1>Login</h1>
-          <input type="text" placeholder="Username" />
+          <input type="text" placeholder="Nome" />
           <input type="email" placeholder='E-mail' />
           <input type="password" placeholder="Password" />
           <button className='btn-blue' type="submit">Entrar</button>
